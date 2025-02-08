@@ -127,8 +127,20 @@ def main():
     st.title("🤖 AI-Powered README Generator")
     st.subheader("Transform Plain Text to Professional Documentation")
     
-    user_input = st.text_area("📝 Enter your project description:", height=200)
-    
+    user_input = st.text_area(
+    "📝 Enter your project description:", 
+    height=200, 
+    placeholder="""Briefly explain your project to generate a professional README file.
+- What your project does and its main purpose.
+- Key features and functionalities.
+- Installation instructions and prerequisites.
+- How to use the project, including example commands or scripts.
+- A description of the project structure and important files.
+This information will be used to generate a well-structured README for your project."""
+)
+
+
+
     if st.button("✨ Generate README", use_container_width=True):
         with st.spinner("🔧 Crafting professional documentation..."):
             try:
