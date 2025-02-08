@@ -35,7 +35,8 @@ Convert the following text into a professional, **GitHub-optimized** README.md f
 ---
 
 ## **📜 README Structure Guidelines:**  
-
+## Explain in professional way and generate a comperhensive markdown.
+## Also add how to clone/use this project on github.
 ### 1️⃣ **Project Title & Overview**  
    - `#` Project Title (with an engaging **emoji**)  
    - Short, clear project introduction  
